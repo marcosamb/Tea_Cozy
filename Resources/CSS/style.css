@@ -1,3 +1,35 @@
 body {
 
 }
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  background-color: blue;
+  margin: 0;
+  top: 0;
+  left:0;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+/*Left section of the header*/
+img.logo {
+  padding: 10px;
+  height: 50px;
+}
+
+/*Right section of the header*/
+nav {
+  display: flex;
+}
+nav span {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0 10px;
+  text-decoration: underline;
+}
