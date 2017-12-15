@@ -1,7 +1,11 @@
 body {
-
+margin: 0;
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+opacity: 0.9;
 }
-
+                            /*HEADER THE WEBSITE*/
 header {
   display: flex;
   height: 69px;
@@ -11,9 +15,11 @@ header {
   top: 0;
   left:0;
   position: fixed;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
   background-color: black;
+
 }
 /*Left section of the header*/
 img.logo {
@@ -26,10 +32,41 @@ nav {
   display: flex;
 }
 nav span {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
   margin: 0 10px;
   text-decoration: underline;
+
+}
+
+                            /*CONTENT OF THE WEBSITE*/
+div.container {
+  border: 1px solid;
+  display: flex;
+  margin: 0;
+  position: relative;
+  top: 69px;
+  justify-content: center;
+}
+
+/*Top section of the site*/
+div.mission {
+  display:flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../Images/mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+}
+
+div.titles {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  width: 1200px;
+}
+
+h2{
+  margin: 10px;
+}
+h4{
+  margin: 10px;
 }
