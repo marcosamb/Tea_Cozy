@@ -4,6 +4,7 @@ font-family: Helvetica;
 font-size: 22px;
 color: seashell;
 opacity: 0.9;
+background-color: black;
 }
                             /*HEADER THE WEBSITE*/
 header {
@@ -19,6 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: black;
+  border-bottom: 1px solid;
 
 }
 /*Left section of the header*/
@@ -39,17 +41,19 @@ nav span {
 
                             /*CONTENT OF THE WEBSITE*/
 div.container {
-  border: 1px solid;
-  display: flex;
+  display: inline-flex;
+  width: 100%;
   margin: 0;
   position: relative;
   top: 69px;
   justify-content: center;
+  flex-flow: row wrap;
+
 }
 
 /*Top section of the site*/
 div.mission {
-  display:flex;
+  display: flex;
   height: 700px;
   width: 1200px;
   background-image: url("../Images/mission-background.jpg");
@@ -58,15 +62,74 @@ div.mission {
 }
 
 div.titles {
+  display: inline-block;
   text-align: center;
   padding: 5px;
-  background-color: black;
   width: 1200px;
+  background-color: black;
 }
 
 h2{
   margin: 10px;
 }
 h4{
+  margin: 10px;
+  text-align: center;
+
+}
+
+/*Middle section of the site*/
+div.teas {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 50px 0;
+}
+div.titles2 {
+  text-align: center;
+  width: 1000px;
+  margin: 0;
+}
+/*First row of images of the Middle section*/
+div.row-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0;
+}
+div.berryblitz{
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+div.spicedrum {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+div.donut {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+/*Second row of images of the Middle section*/
+div.row-2 {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: 0;
+}
+div.myrtle {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+}
+div.bedford {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
   margin: 10px;
 }
