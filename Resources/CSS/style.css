@@ -142,7 +142,7 @@ div.locations {
   justify-content: center;
   align-items: flex-start;
   flex-flow: column;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
 
 }
 
@@ -195,4 +195,23 @@ h3.location {
 h4.location {
   margin: 20px 0;
   text-align: center;
+}
+
+/*PART 4: Contact section*/
+div.contact {
+  display: flex;
+  height: 200px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+
+h5 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 20px;
 }
