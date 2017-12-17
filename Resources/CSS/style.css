@@ -91,6 +91,10 @@ div.titles2 {
   width: 1000px;
   margin: 0;
 }
+img.tea{
+  height: 200px;
+  width: 300px;
+}
 /*First row of images of the Middle section*/
 div.row-1 {
   display: flex;
@@ -121,13 +125,13 @@ div.row-2 {
   margin: 0;
 }
 div.myrtle {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 300px;
   margin: 10px;
 }
 div.bedford {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 300px;
   margin: 10px;
