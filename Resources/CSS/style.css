@@ -51,7 +51,7 @@ div.container {
 
 }
 
-/*Top section of the site*/
+/*PART 1: Top section of the site*/
 div.mission {
   display: flex;
   height: 700px;
@@ -69,16 +69,15 @@ div.titles {
   background-color: black;
 }
 
-h2{
+h2 {
   margin: 10px;
 }
 h4{
   margin: 10px;
   text-align: center;
-
 }
 
-/*Middle section of the site*/
+/*PART 2: Middle section of the site*/
 div.teas {
   display: flex;
   width: 1000px;
@@ -132,4 +131,68 @@ div.bedford {
   flex-direction: column;
   width: 300px;
   margin: 10px;
+}
+
+/*PART 3: Bottom section of the site*/
+div.locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../Images/locations-background.jpg");
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  margin: 20px 0;
+
+}
+
+h2.titleloc {
+  display:inline-block;
+  text-align: center;
+  width: 1200px;
+  padding: 0;
+  margin: 0;
+}
+/*Addresses of the places*/
+div.places {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 1200px;
+  margin-top: 10px;
+}
+div.downtown {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+}
+div.east {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+}
+div.oakdale {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+}
+h3.location {
+  margin: 20px 0;
+  text-align: center;
+}
+h4.location {
+  margin: 20px 0;
+  text-align: center;
 }
